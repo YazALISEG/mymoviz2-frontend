@@ -45,7 +45,7 @@ function Home() {
 //  ];
  
 useEffect(() => {
-    fetch('https://my-moviz-backend-gold.vercel.app/')
+    fetch('https://mymoviz2-backend-seven.vercel.app/movies')
 
     .then(response => response.json())
     .then(data => {
